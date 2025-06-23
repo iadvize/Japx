@@ -9,7 +9,7 @@
 import Foundation
 
 /// `Parameters` is a simplification for writing [String: Any]
-public typealias Parameters = [String: Any]
+public typealias Parameters = [String: any Any & Sendable]
 
 /// `JapxError` is the error type returned by Japx.
 public enum JapxError: Error {
